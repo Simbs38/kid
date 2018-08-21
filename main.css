@@ -81,3 +81,15 @@ footer{
     background-color: #071C1A;
     color: white;
 }
+.foto1:hover{
+  background-image: url("1.png"); 
+  background-size: 200px;
+}
+.foto2:hover{
+  background-image: url("2.jpg");
+  background-size: 200px;
+}
+.foto3:hover{
+  background-image: url("3.jpg");
+  background-size: 200px;
+}
