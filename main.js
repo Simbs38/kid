@@ -61,7 +61,7 @@ function pupolateMistolim(){
 
 function turnToObj(array,string,def){
     let obj = []
-    let i = 0
+    let i = -1
     array.forEach( function(elem){
     let now = new Date()    
         if(string ==="twos"){
@@ -170,7 +170,7 @@ let orders = order(kid,mistolim,twos)
 
 
 orders.forEach(function(elem){
-    if(elem.num){
+    if(elem.num>=0){
        document.write( `
     <div>
         <li class="flex-item ${elem.next} ${elem.css}">${elem.type}<p>2^${elem.num} </p></li>

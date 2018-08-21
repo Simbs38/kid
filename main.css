@@ -10,6 +10,8 @@ body{
     font-size:  30px;
     color: white;
     border-bottom: solid black;
+    border-left:  solid black;
+    border-right:   solid black;
     border-bottom-left-radius:  1000px;
     border-bottom-right-radius:  1000px;
 }
