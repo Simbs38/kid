@@ -132,9 +132,9 @@ function orderMerge(array1, array2){
 function extraObj(){
     let array = []
     
-    array.push({ type: "<p>Primeiro jantar e</p><p> primeira foto</p>", css:"extra" ,date: new Date(2017,2,1), next:""})
-    array.push({ type: "<p>A kid e o mistolas</p><p> são amigos no facebook</p>", css:"extra" ,date: new Date(2017,5,18), next:""})
-    array.push({ type: "Primeiro beijo", css:"extra" ,date: new Date(2017,6,26), next:""})
+    array.push({ type: '<p>Primeiro jantar e</p><p> primeira foto</p><span style="color: #E8E8D1;">  <i class="fas fa-camera"></i></span>', css:"extra" ,date: new Date(2017,2,1), next:""})
+    array.push({ type: '<p>A kid e o mistolas</p><p> são amigos no facebook</p> <span style="color: #E8E8D1;">  <i class="fab fa-facebook-f"></i></span>', css:"extra" ,date: new Date(2017,5,18), next:""})
+    array.push({ type: 'Primeiro beijo <span style="color: #E8E8D1;">  <i class="fas fa-kiss-wink-heart"></i></span>', css:"extra" ,date: new Date(2017,6,26), next:""})
     array.push({ type: "KID A TUNANTE", css:"extra" ,date: new Date(2018,3,20), next:""})
     array.push({ type: "MISTOLIM A TUNO", css:"extra" ,date: new Date(2018,7,11), next:""})
     
@@ -144,8 +144,8 @@ function extraObj(){
 
 
 function order(kid, mistolim,twos){
-    let kidObj = turnToObj(kid,'kid', 'Kidolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake">')
-    let mistolimObj = turnToObj(mistolim,'mistolim', "Mistolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake">")
+    let kidObj = turnToObj(kid,'kid', 'Kidolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake"></i></span>')
+    let mistolimObj = turnToObj(mistolim,'mistolim', 'Mistolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake"></i></span>')
     let twosObj = turnToObj(twos,'twos', "Exponenciais de fofuras")
 
     let extra = extraObj()
