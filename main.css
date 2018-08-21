@@ -1,9 +1,9 @@
 body{
-    background-color: #D3F9B5;
+    background-color: #E8E8D1;
 }
 
 .header{
-    background-color: #607253;
+    background-color: #071C1A;
     margin-top: 0px;
     padding: 20px;
     text-align: center;
@@ -47,19 +47,19 @@ body{
 
 
 .mistolim{
-    background-color:  #C5D86D;
+    background-color:  #17B67D;
 }
 
 .kid{
-    background-color: #00B8A9;
+    background-color: #3892A6;
 }
 
 .twos{
-    background-color: #F46036;
+    background-color: #E75473;
 }
 
 .extra{
-    background-color: #73E2A7;
+    background-color: #065473;
 }
 
 .nextEvent{
@@ -78,6 +78,6 @@ footer{
     text-align: center;
     font-size: 40px;
     padding: 20px;
-    background-color: #607253;
+    background-color: #071C1A;
     color: white;
 }

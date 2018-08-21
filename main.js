@@ -144,8 +144,8 @@ function extraObj(){
 
 
 function order(kid, mistolim,twos){
-    let kidObj = turnToObj(kid,'kid', "Kidolas faz anos")
-    let mistolimObj = turnToObj(mistolim,'mistolim', "Mistolas faz anos")
+    let kidObj = turnToObj(kid,'kid', 'Kidolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake">')
+    let mistolimObj = turnToObj(mistolim,'mistolim', "Mistolas faz anos <span style="color: #E8E8D1;">  <i class="fas fa-birthday-cake">")
     let twosObj = turnToObj(twos,'twos', "Exponenciais de fofuras")
 
     let extra = extraObj()
